@@ -1,0 +1,30 @@
+.advertentie {
+    background-color: #000; /* Achtergrondkleur van de advertentie */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 300px; /* Breedte van het blokje */
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    /* Kies een van de volgende regels op basis van waar je de advertentie wilt plaatsen (links of rechts) */
+    right: 0; /* Voor de rechterkant */
+}
+
+.advertentie img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.advertentie p {
+    color: #555;
+    font-size: 14px;
+    margin: 0;
+}
+
+.advertentie a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+}

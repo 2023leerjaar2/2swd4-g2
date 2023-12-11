@@ -1,0 +1,100 @@
+/* Voeg hier je bestaande CSS-stijlen toe, zoals die voor de header, navigatie en footer */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    max-width: 1000px; /* Aangepaste maximale breedte */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-form {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical; 
+}
+
+.contact-form button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+header {
+    background-color: #ff6747;
+    color: #333;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    background-color: #030303;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
